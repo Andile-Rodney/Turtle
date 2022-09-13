@@ -1,0 +1,17 @@
+# Turtle
+
+import turtle
+
+wndw = turtle.Screen()
+rodney = turtle.Turtle()
+
+wndw.bgcolor("blue")
+# rodney.penup()
+
+for i in range(4):
+  rodney.fd(100)
+  rodney.lt(45)
+  rodney.bk(100)
+  rodney.lt(45)
+
+wndw.mainloop()
